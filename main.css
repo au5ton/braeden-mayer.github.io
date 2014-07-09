@@ -1,17 +1,21 @@
 html {
     background-color: #0060ba;
-        background-image:url('background.png')
+    background-image:url('background.png')
 }
 
 body {
     margin: 0;
     padding: 0px 64px 0px;
-    font-family: "Amatic", "Helvetica Neue Light", "Helvetica Neue", 
-  Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Amatic SC";
     text-align: center;
-    line-height: 80px;
-    vertical-align: middle;
     -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
 
 }
 
@@ -32,4 +36,9 @@ h2 {
 
 a {
     color: #ffffff;
+}
+
+div.centre {
+    margin-left: auto;
+    margin-right: auto;
 }
