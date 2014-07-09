@@ -1,33 +1,35 @@
 html {
-    background-color: #ffffff;
+    background-color: #0060ba;
+        background-image:url('background.png')
 }
 
 body {
     margin: 0;
     padding: 0px 64px 0px;
-    font-family: "Helvetica Neue";
+    font-family: "Amatic", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-align: center;
+    line-height: 80px;
+    vertical-align: middle;
     -webkit-font-smoothing: antialiased;
+
 }
 
 h1, h2, h3, a {
-    font-weight: 600;
+    font-weight: 100;
+    font-weight: lighter;
 }
 
 h1 {
-    font-size: 64px;
-    color: #0040ba;
+    font-size: 80px;
+    color: #ffffff;
 }
         
 h2 {
-    font-size: 32px;
-    color:#0060ba;
-}
-
-h3 {
-    font-size: 21;
-    color: #0080ba;
+    font-size: 48px;
+    color:#ffffff;
 }
 
 a {
-    color: #0060ba;
+    color: #ffffff;
 }
