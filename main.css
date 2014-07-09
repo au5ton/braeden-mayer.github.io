@@ -8,7 +8,6 @@ body {
     padding: 0px 64px 0px;
     font-family: "Amatic SC";
     text-align: center;
-    -webkit-font-smoothing: antialiased;
     position: absolute;
     top: 50%;
     left: 45%;
@@ -16,6 +15,7 @@ body {
     height: 500px;
     margin-top: -250px;
     margin-left: -250px;
+    -webkit-font-smoothing: antialiased;
 
 }
 
