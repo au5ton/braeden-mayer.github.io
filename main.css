@@ -1,6 +1,5 @@
 html {
-    background-color: #0060ba;
-    background-image:url('background.png')
+    background-color: #0277bd;
 }
 
 body {
@@ -41,7 +40,7 @@ a {
 }
 
 a:hover {
-    color: #DCDCDC;
+    color: #eeeeee;
 }
 
 div.centre {
